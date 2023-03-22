@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.app {
+    box-sizing: border-box;
+    padding: 115px 52px;
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    
+    /* helper */
+    /* border: 1px solid red; */
+}
+
+.heading {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+.subheading {
+    margin: 0;
+    margin-bottom: 51px;
+    color: #D5D4D8;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.highlight {
+    color: #4ADF86;
+    display: block;
+}
+
+.generate-button {
+    padding: 9px 15px;
+    background: #10B981;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+.line {
+    border: 1px solid #2F3E53;
+    margin: 35px 0;
+}
+
+.passbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passbox {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+}
