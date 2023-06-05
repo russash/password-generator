@@ -111,3 +111,17 @@ function generatePasswords() {
   passOneEl.textContent = passOne;
   passTwoEl.textContent = passTwo;
 }
+
+// COPY
+function copyPassword1() {
+  navigator.clipboard.writeText(passOneEl.textContent);
+  passOneEl.textContent = "Copied to Clipboard!";
+}
+
+function copyPassword2() {
+  navigator.clipboard.writeText(passTwoEl.textContent);
+  passTwoEl.textContent = "Copied to Clipboard!";
+}
+
+passOneEl.addEventListener("click", copyPassword1);
+passTwoEl.addEventListener("click", copyPassword2);
